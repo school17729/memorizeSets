@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Memorize those sets</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div id="answerArea">
+            <span class="text" id="term">
+                Click on the three dots icon on Quizlet.<br />
+                This icon is located near the author icon of the set.<br />
+                Click Export.<br />
+                Below "Between term and definition", choose the "Custom" option.<br />
+                Delete the text above it and type ///<br />
+                Below "Between rows", choose the "Custom" option.<br />
+                Delete the text above it and type /////<br />
+                Copy the text using the "Copy Text" button and paste it in the space below.<br /><br />
+                Or you can type //recall//NAME in the space below to retrieve a set you named.<br />
+                Additionally, you can type //listSets// to see the names of all of your sets.
+            </span>
+
+            <input type="text" autocomplete="off" class="inputBox" id="definition"/>
+            <span class="text" id="correctDefinition"></span>
+            <span class="button" id="next">Next</span>
+            <span class="button" id="override">Override</span>
+
+            <div id="choiceArea">
+                <span class="button" id="choice0"></span>
+                <span class="button" id="choice1"></span>
+                <span class="button" id="choice2"></span>
+                <span class="button" id="choice3"></span>
+            </div>
+        </div>
+        <div id="helpArea">
+            <span class="button" id="stuck">Don't know</span>
+            <span class="button" id="reset">Reset Progress</span>
+        </div>
+        <div id="progressArea">
+            <span class="text" id="progressNumber"></span>
+            <div class="progressBarOutside" id="progress">
+                <div class="progressBarInside" id="progressInside"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
