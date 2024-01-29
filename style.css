@@ -9,7 +9,7 @@ html, body {
     align-items: center;
     justify-content: space-around;
 
-    height: 60vh;
+    height: 80vh;
     /* border: 2px solid red; */
 }
 
@@ -20,8 +20,8 @@ html, body {
     align-items: center;
     justify-content: space-around;
 
-    width: 40vw;
-    height: 30vh;
+    width: 90vw;
+    height: 70vh;
     /* border: 2px solid purple; */
     
 }
@@ -32,7 +32,7 @@ html, body {
     align-items: center;
     justify-content: space-around;
 
-    height: 20vh;
+    height: 10vh;
     /* border: 2px solid green; */
 }
 
@@ -42,7 +42,7 @@ html, body {
     align-items: center;
     justify-content: center;
 
-    height: 20vh;
+    height: 10vh;
     /* border: 2px solid blue; */
 }
 
@@ -56,6 +56,23 @@ html, body {
 }
 
 .button {
+    font-family: Times New Roman, serif;
+    font-size: 21px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 600px;
+    height: 200px;
+    padding: 0px;
+    border: 2px solid black;
+    margin: 0px;
+}
+
+.smallButton {
     font-family: Times New Roman, serif;
     font-size: 21px;
     text-align: center;
